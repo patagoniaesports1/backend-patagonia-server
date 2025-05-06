@@ -1,0 +1,1143 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: 'MiFuente'; /* Nombre personalizado para usar en tu CSS */
+    src: url('/LEMONMILK/LEMONMILK-Bold.otf') format('opentype');
+    font-weight: normal; /* Puedes ajustar según el peso de la fuente */
+    font-style: normal; /* Puedes cambiar a 'italic' si la fuente lo soporta */
+}
+@font-face {
+    font-family: 'MiFuenteLigth'; /* Nombre personalizado para usar en tu CSS */
+    src: url('/LEMONMILK/LEMONMILK-Light.otf') format('opentype');
+    font-weight: normal; /* Puedes ajustar según el peso de la fuente */
+    font-style: normal; /* Puedes cambiar a 'italic' si la fuente lo soporta */
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("./img/background.jpg");
+}
+header{
+   
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 100%;
+    
+}
+#nav-menu1{
+    justify-content: end;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    padding-left: 1.875rem;
+        padding-right: 1.875rem;
+}
+
+a{  
+    padding-top: 28px;
+    padding-bottom: 27px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    line-height: 1.25;
+    font-family: 'MiFuenteLigth';
+ 
+}
+a:hover{
+    color: rgb(0, 255, 255);
+}
+.logo{
+    width: 205px;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+
+
+
+main{
+    /* background-color: rgb(65, 65, 65); */
+    display: flex;
+    justify-content: center;
+    height: 288px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+}
+.container h1{
+    
+    font-size: 48px;
+    text-align: left;
+    font-family: 'MiFuente';
+}
+.child-h1{
+    text-align: left;
+    font-family: 'MiFuente';
+    color: aqua;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1e23;
+    color: #ddd;
+    margin: 0;
+    
+  }
+  
+  .calendar-header {
+    padding: 20px;
+  }
+  
+  .calendar-header h1 {
+    margin: 0;
+    color: #e3e3e3;
+  }
+  
+  .months {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .months span {
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .months span:hover {
+    color: #fff;
+  }
+  .logo-lol{
+    width: 110px;
+    
+
+}
+.match-tittle{
+    background-color: #111213;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(0, 225, 255);
+    padding: 10px;
+}
+.team-logo{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.team-logo2{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+.match-tittle{
+  align-items: center;
+}
+  .matches-container {
+    display: grid;
+    grid-template-columns: repeat() 1fr;
+    padding: 20px;
+    width: 100%;
+    margin: auto auto;
+  }
+  
+  .match-card {
+    background-color: #161718;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+ 
+  .match-card h3 {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'MiFuenteLigth';
+  }
+  
+  .match-info {
+    display: flex;
+    
+    align-items: center;
+    margin-top: 10px;
+    height: 100px;
+  }
+  
+
+  .team {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #04c4ff;
+    font-family: 'MiFuente';
+    padding: 15px;
+  }
+  .team-nc{
+    color: #ccc;
+    font-size: .6rem;
+    font-family: 'MiFuenteLigth';
+  }
+  .result {
+    white-space: nowrap;
+    color: #faf9f9;
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: auto;
+  }
+  .format{
+    font-family: 'MiFuente';
+    font-size: .9rem;
+    color: #fafafa6b;
+    margin-top: 20px;
+  }
+  .match-description {
+    font-size: 0.9em;
+    color: #aaa;
+    text-align: end;
+  }
+  .match-stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .match-date {
+    font-size: 0.8em;
+    color: #666;
+    text-align: right;
+  }
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.all-button {
+    flex-shrink: 0; /* Mantiene el botón "Todos" fijo en su lugar */
+}
+
+.all-button span {
+    color: #ccc;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.all-button span:hover {
+    color: #fff;
+    background-color: #444;
+}
+
+.months {
+    padding-left: 386px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Oculta la barra de desplazamiento en Firefox */
+   display: none; /*
+}
+
+.months::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento en Chrome, Safari y Edge */
+}
+/* Estilos generales para el contenedor del formulario de actualización */
+.update-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el formulario esté por encima de otros elementos */
+}
+
+/* Estilos del formulario en sí */
+.update-form-container form {
+    background-color: #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Hace que el formulario sea desplazable si es muy largo */
+    max-height: 80%; /* Limita la altura del formulario para pantallas pequeñas */
+}
+
+/* Título del formulario */
+.update-form-container h3 {
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Estilos de cada etiqueta */
+.update-form-container form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Estilos de los campos de entrada de texto y selectores */
+.update-form-container form input[type="text"],
+.update-form-container form input[type="datetime-local"],
+.update-form-container form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Estilos de los botones */
+.update-form-container form button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Botón para guardar cambios */
+.update-form-container form button[type="submit"] {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+}
+
+/* Botón para cancelar */
+.update-form-container form button[type="button"] {
+    background-color: #f44336; /* Rojo */
+    color: #fff;
+}
+
+/* Estilos para los fieldsets y legends */
+.update-form-container form fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.update-form-container form legend {
+    font-weight: bold;
+    padding: 0 5px;
+    color: #333;
+}
+
+/* Estilo en modo móvil */
+@media (max-width: 500px) {
+    .update-form-container form {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .update-form-container h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.months span {
+    color: #ccc;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.months span:hover {
+    color: #fff;
+    background-color: #444;
+}
+
+@media (max-width: 600px) {
+    .months span {
+        padding: 6px 10px;
+        font-size: 0.9em;
+    }
+}
+
+
+@media (max-width: 1125px) {
+    nav li{
+        padding-left: .8rem;
+        padding-right: .8rem;
+    }
+    
+}
+.menu-btn {
+    display: none; /* oculto en pantallas grandes */
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1001;
+    top: 20px;
+    left: 20px;
+}
+
+.menu-line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Cambios cuando el botón está activo */
+.menu-btn.active .menu-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-btn.active .menu-line:nth-child(2) {
+    opacity: 0; /* Oculta la línea del medio */
+}
+
+.menu-btn.active .menu-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+.team2{
+    text-align: end;
+   
+  }
+@media (min-width: 1168px) {
+    .matches-container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        
+      }
+      .matches-container > *:nth-child(odd) {
+        justify-self: end; /* Alinea a la derecha */
+      }
+      
+      /* Aplica alineación a los elementos de la segunda columna */
+      .matches-container > *:nth-child(even) {
+        justify-self: start; /* Alinea a la izquierda */
+      }
+
+}
+@media (max-width: 1168px) {
+    .matches-container {
+        justify-items: center;
+        align-items: center;
+      }
+
+}
+@media (max-width: 900px) {
+   
+    /* Ocultar los navs por defecto en pantallas pequeñas */
+    #nav-menu1, #nav-menu2 {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.9); /* Fondo semi-transparente cuando están activos */
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 1; /* Asegura que estén encima de otros elementos */
+    }
+
+    /* Ajustar el posicionamiento de nav-menu1 y nav-menu2 */
+    #nav-menu1 {
+        top: 0; /* El menú inicia desde la parte superior */
+         /* Espacio para que no se superponga con el botón de menú */
+    }
+
+    #nav-menu2 {
+        top: 251px; /* Debajo del primer menú */
+    }
+
+    /* Mostrar el botón de menú en pantallas pequeñas */
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    
+    /* Estilo del ul cuando los menús están activos */
+    #nav-menu1 ul, #nav-menu2 ul {
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Estilo de cada enlace en los menús */
+    #nav-menu1 ul li, #nav-menu2 ul li {
+        margin: 0;
+        padding: 20px 0; /* Espaciado entre las opciones */
+        border-bottom: 1px solid white; /* Línea divisoria entre opciones */
+    }
+
+    #nav-menu1 ul li a, #nav-menu2 ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block; /* Para que cada enlace ocupe toda la fila */
+        padding: 10px 0;
+    }
+
+    /* Mostrar los menús en formato de columna cuando estén activos */
+    #nav-menu1.active, #nav-menu2.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrar los elementos */
+    }
+    
+}
+@media (max-width: 670px){
+    h1{
+        text-align: center;
+    }
+    .logo{
+        width: 100px;
+    }
+    .team-logo{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .team-logo2{
+        width: 40px;
+        margin-right: 10px;
+    }
+    .matches-container {
+  
+        gap: 0px;
+        
+        padding: 0px;
+       
+      }
+      .team{
+        width: min-content;
+        padding: 0px;
+      }
+   .match-card{
+    margin: 10px;
+    width: 100%;
+   }
+   .match-card h3 {
+   
+    font-size: 1em;
+
+  }
+
+}
+@media (max-width: 362px){
+    .container{
+        margin-left: 0px;
+        margin: 10px;
+    }
+}
+=======
+@font-face {
+    font-family: 'MiFuente'; /* Nombre personalizado para usar en tu CSS */
+    src: url('/LEMONMILK/LEMONMILK-Bold.otf') format('opentype');
+    font-weight: normal; /* Puedes ajustar según el peso de la fuente */
+    font-style: normal; /* Puedes cambiar a 'italic' si la fuente lo soporta */
+}
+@font-face {
+    font-family: 'MiFuenteLigth'; /* Nombre personalizado para usar en tu CSS */
+    src: url('/LEMONMILK/LEMONMILK-Light.otf') format('opentype');
+    font-weight: normal; /* Puedes ajustar según el peso de la fuente */
+    font-style: normal; /* Puedes cambiar a 'italic' si la fuente lo soporta */
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("./img/background.jpg");
+}
+header{
+   
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 100%;
+    
+}
+#nav-menu1{
+    justify-content: end;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    padding-left: 1.875rem;
+        padding-right: 1.875rem;
+}
+
+a{  
+    padding-top: 28px;
+    padding-bottom: 27px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    line-height: 1.25;
+    font-family: 'MiFuenteLigth';
+ 
+}
+a:hover{
+    color: rgb(0, 255, 255);
+}
+.logo{
+    width: 205px;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+
+
+
+main{
+    /* background-color: rgb(65, 65, 65); */
+    display: flex;
+    justify-content: center;
+    height: 288px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+}
+.container h1{
+    
+    font-size: 48px;
+    text-align: left;
+    font-family: 'MiFuente';
+}
+.child-h1{
+    text-align: left;
+    font-family: 'MiFuente';
+    color: aqua;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1e23;
+    color: #ddd;
+    margin: 0;
+    
+  }
+  
+  .calendar-header {
+    padding: 20px;
+  }
+  
+  .calendar-header h1 {
+    margin: 0;
+    color: #e3e3e3;
+  }
+  
+  .months {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .months span {
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .months span:hover {
+    color: #fff;
+  }
+  .logo-lol{
+    width: 110px;
+    
+
+}
+.match-tittle{
+    background-color: #111213;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(0, 225, 255);
+    padding: 10px;
+}
+.team-logo{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.team-logo2{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+.match-tittle{
+  align-items: center;
+}
+  .matches-container {
+    display: grid;
+    grid-template-columns: repeat() 1fr;
+    padding: 20px;
+    width: 100%;
+    margin: auto auto;
+  }
+  
+  .match-card {
+    background-color: #161718;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+ 
+  .match-card h3 {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'MiFuenteLigth';
+  }
+  
+  .match-info {
+    display: flex;
+    
+    align-items: center;
+    margin-top: 10px;
+    height: 100px;
+  }
+  
+
+  .team {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #04c4ff;
+    font-family: 'MiFuente';
+    padding: 15px;
+  }
+  .team-nc{
+    color: #ccc;
+    font-size: .6rem;
+    font-family: 'MiFuenteLigth';
+  }
+  .result {
+    white-space: nowrap;
+    color: #faf9f9;
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: auto;
+  }
+  .format{
+    font-family: 'MiFuente';
+    font-size: .9rem;
+    color: #fafafa6b;
+    margin-top: 20px;
+  }
+  .match-description {
+    font-size: 0.9em;
+    color: #aaa;
+    text-align: end;
+  }
+  .match-stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .match-date {
+    font-size: 0.8em;
+    color: #666;
+    text-align: right;
+  }
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.all-button {
+    flex-shrink: 0; /* Mantiene el botón "Todos" fijo en su lugar */
+}
+
+.all-button span {
+    color: #ccc;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.all-button span:hover {
+    color: #fff;
+    background-color: #444;
+}
+
+.months {
+    padding-left: 386px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Oculta la barra de desplazamiento en Firefox */
+   display: none; /*
+}
+
+.months::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento en Chrome, Safari y Edge */
+}
+/* Estilos generales para el contenedor del formulario de actualización */
+.update-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el formulario esté por encima de otros elementos */
+}
+
+/* Estilos del formulario en sí */
+.update-form-container form {
+    background-color: #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Hace que el formulario sea desplazable si es muy largo */
+    max-height: 80%; /* Limita la altura del formulario para pantallas pequeñas */
+}
+
+/* Título del formulario */
+.update-form-container h3 {
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Estilos de cada etiqueta */
+.update-form-container form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Estilos de los campos de entrada de texto y selectores */
+.update-form-container form input[type="text"],
+.update-form-container form input[type="datetime-local"],
+.update-form-container form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Estilos de los botones */
+.update-form-container form button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Botón para guardar cambios */
+.update-form-container form button[type="submit"] {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+}
+
+/* Botón para cancelar */
+.update-form-container form button[type="button"] {
+    background-color: #f44336; /* Rojo */
+    color: #fff;
+}
+
+/* Estilos para los fieldsets y legends */
+.update-form-container form fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.update-form-container form legend {
+    font-weight: bold;
+    padding: 0 5px;
+    color: #333;
+}
+
+/* Estilo en modo móvil */
+@media (max-width: 500px) {
+    .update-form-container form {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .update-form-container h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.months span {
+    color: #ccc;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.months span:hover {
+    color: #fff;
+    background-color: #444;
+}
+
+@media (max-width: 600px) {
+    .months span {
+        padding: 6px 10px;
+        font-size: 0.9em;
+    }
+}
+
+
+@media (max-width: 1125px) {
+    nav li{
+        padding-left: .8rem;
+        padding-right: .8rem;
+    }
+    
+}
+.menu-btn {
+    display: none; /* oculto en pantallas grandes */
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1001;
+    top: 20px;
+    left: 20px;
+}
+
+.menu-line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Cambios cuando el botón está activo */
+.menu-btn.active .menu-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-btn.active .menu-line:nth-child(2) {
+    opacity: 0; /* Oculta la línea del medio */
+}
+
+.menu-btn.active .menu-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+.team2{
+    text-align: end;
+   
+  }
+@media (min-width: 1168px) {
+    .matches-container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        
+      }
+      .matches-container > *:nth-child(odd) {
+        justify-self: end; /* Alinea a la derecha */
+      }
+      
+      /* Aplica alineación a los elementos de la segunda columna */
+      .matches-container > *:nth-child(even) {
+        justify-self: start; /* Alinea a la izquierda */
+      }
+
+}
+@media (max-width: 1168px) {
+    .matches-container {
+        justify-items: center;
+        align-items: center;
+      }
+
+}
+@media (max-width: 900px) {
+   
+    /* Ocultar los navs por defecto en pantallas pequeñas */
+    #nav-menu1, #nav-menu2 {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.9); /* Fondo semi-transparente cuando están activos */
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 1; /* Asegura que estén encima de otros elementos */
+    }
+
+    /* Ajustar el posicionamiento de nav-menu1 y nav-menu2 */
+    #nav-menu1 {
+        top: 0; /* El menú inicia desde la parte superior */
+         /* Espacio para que no se superponga con el botón de menú */
+    }
+
+    #nav-menu2 {
+        top: 251px; /* Debajo del primer menú */
+    }
+
+    /* Mostrar el botón de menú en pantallas pequeñas */
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    
+    /* Estilo del ul cuando los menús están activos */
+    #nav-menu1 ul, #nav-menu2 ul {
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Estilo de cada enlace en los menús */
+    #nav-menu1 ul li, #nav-menu2 ul li {
+        margin: 0;
+        padding: 20px 0; /* Espaciado entre las opciones */
+        border-bottom: 1px solid white; /* Línea divisoria entre opciones */
+    }
+
+    #nav-menu1 ul li a, #nav-menu2 ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block; /* Para que cada enlace ocupe toda la fila */
+        padding: 10px 0;
+    }
+
+    /* Mostrar los menús en formato de columna cuando estén activos */
+    #nav-menu1.active, #nav-menu2.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrar los elementos */
+    }
+    
+}
+@media (max-width: 670px){
+    h1{
+        text-align: center;
+    }
+    .logo{
+        width: 100px;
+    }
+    .team-logo{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .team-logo2{
+        width: 40px;
+        margin-right: 10px;
+    }
+    .matches-container {
+  
+        gap: 0px;
+        
+        padding: 0px;
+       
+      }
+      .team{
+        width: min-content;
+        padding: 0px;
+      }
+   .match-card{
+    margin: 10px;
+    width: 100%;
+   }
+   .match-card h3 {
+   
+    font-size: 1em;
+
+  }
+
+}
+@media (max-width: 362px){
+    .container{
+        margin-left: 0px;
+        margin: 10px;
+    }
+}
+>>>>>>> bc3c876 (socios update)

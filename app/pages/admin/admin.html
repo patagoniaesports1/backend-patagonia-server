@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="admin.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="form-container">
+      <h1>Bienvenido al área de administración</h1>
+      <button>Cerrar sesión</button>
+      <a href="/blog">Blog</a>
+    </div>
+  </main>
+
+  <!-- Formulario para crear partido -->
+  <form id="createMatchForm">
+    <input type="text" name="descripcion" placeholder="Descripción" required>
+    <!-- Cambiado a datetime-local para permitir la selección de fecha y hora -->
+    <input type="datetime-local" name="fecha" required>
+    
+    <!-- Información del equipo 1 -->
+    <fieldset>
+      <legend>Equipo 1</legend>
+      <input type="text" name="equipo1_nombre_completo" placeholder="Nombre Completo del Equipo 1" required>
+      <input type="text" name="equipo1_abreviacion" placeholder="Abreviación del Equipo 1" required>
+      <input type="url" name="equipo1_img_logo" placeholder="URL del Logo del Equipo 1" required>
+    </fieldset>
+    
+    <!-- Información del equipo 2 -->
+    <fieldset>
+      <legend>Equipo 2</legend>
+      <input type="text" name="equipo2_nombre_completo" placeholder="Nombre Completo del Equipo 2" required>
+      <input type="text" name="equipo2_abreviacion" placeholder="Abreviación del Equipo 2" required>
+      <input type="url" name="equipo2_img_logo" placeholder="URL del Logo del Equipo 2" required>
+    </fieldset>
+    
+    <input type="text" name="resultado" placeholder="Resultado (opcional)" value="- : -" readonly>
+    
+    <select name="juego" required>
+      <option value="csgo2">CSGO2</option>
+      <option value="lol">LoL</option>
+      <option value="valorant">Valorant</option>
+    </select>
+    <label for="formato">Formato</label>
+    <select name="formato" required>
+      <option value="BO1">BO1</option>
+      <option value="BO3">BO3</option>
+      <option value="BO5">BO5</option>
+    </select>
+    
+    <button type="submit">Crear Partido</button>
+    <a href="/calendario">Actualizar Partido</a>
+    <p>Agregar cuenta <a href="/register">Registrate</a></p>
+  </form>
+  
+</body>
+</html>

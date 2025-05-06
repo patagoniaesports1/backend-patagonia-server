@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Manager</title>
+    <link rel="stylesheet" href="blogs.css">
+    <script src="blogss.js" defer></script>
+</head>
+<body>
+    <h1>Blog Manager</h1>
+    <div id="blogContainer">
+        <!-- Aquí se mostrarán todos los blogs -->
+    </div>
+
+    <!-- Formulario de actualización (oculto por defecto) -->
+    <div id="updateFormContainer" style="display: none;">
+        <h2>Actualizar Blog</h2>
+        <form id="updateForm">
+            <label for="updateTitle">Título</label>
+            <input type="text" id="updateTitle" name="title" required>
+            
+            <label for="updateDescription">Descripción</label>
+            <textarea id="updateDescription" name="description" rows="4" required></textarea>
+            
+            <label for="updateImage">URL de la Imagen</label>
+            <input type="url" id="updateImage" name="image" required>
+            
+            <button type="submit">Actualizar Blog</button>
+        </form>
+    </div>
+
+   
+</body>
+</html>

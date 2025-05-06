@@ -1,0 +1,197 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#blogContainer {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blog img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:first-of-type {
+    background-color: #4CAF50; /* Color verde para actualizar */
+    color: white;
+}
+
+button:last-of-type {
+    background-color: #f44336; /* Color rojo para borrar */
+    color: white;
+}
+
+#updateFormContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#updateFormContainer h2 {
+    text-align: center;
+}
+
+#updateForm label {
+    font-weight: bold;
+}
+
+#updateForm input, #updateForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#updateForm button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#blogContainer {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blog img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:first-of-type {
+    background-color: #4CAF50; /* Color verde para actualizar */
+    color: white;
+}
+
+button:last-of-type {
+    background-color: #f44336; /* Color rojo para borrar */
+    color: white;
+}
+
+#updateFormContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#updateFormContainer h2 {
+    text-align: center;
+}
+
+#updateForm label {
+    font-weight: bold;
+}
+
+#updateForm input, #updateForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#updateForm button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}

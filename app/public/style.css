@@ -1,0 +1,139 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* General styling */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100svh;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+.form-container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-container button {
+  background-color: #0288D1;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0277bd;
+}
+
+/* Form styling */
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form input[type="text"], form input[type="url"], form input[type="date"], form select {
+  font-size: 1rem;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+legend {
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #0288D1;
+  font-weight: bold;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+.error{
+  color: rgb(255, 81, 81);
+}
+
+.escondido{
+  display: none;
+}
+
+.sr-only{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .form-container h1 {
+    font-size: 1.3rem;
+  }
+
+  form input, form select, form button {
+    font-size: 0.9rem;
+  }
+}

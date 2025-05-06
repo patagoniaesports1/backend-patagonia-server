@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <title>Crear Post para el Blog</title>
+    <script src="blogs.js" defer></script>
+</head>
+<body>
+    <h2>Crear Nuevo Post en el Blog</h2>
+    
+    <form id="blogForm">
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="description">Descripción:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="image">URL de la Imagen:</label>
+        <input type="url" id="image" name="image" required><br><br>
+
+        <button type="submit">Crear Post</button>
+        <a href="/blogs" target="_blank" rel="noopener noreferrer">Actualizar blog</a>
+    </form>
+
+    <p id="responseMessage"></p>
+
+</body>
+</html>
